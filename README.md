@@ -21,8 +21,53 @@ CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
 
 ## Database Design
 - Users
+
+Represents individuals using the platform, either as property owners or renters.
+
+
+Relationships:
+
+A user can own multiple properties.
+
+A user can make multiple bookings.
+
+A user can leave multiple reviews.
+
 - Properties
+
+Represents property listings on the platform.
+
+
+Relationships:
+
+   A property belongs to one user (the owner).
+
+   A property can have many bookings and reviews.
+
 - Bookings
+
+Tracks reservations made by users for properties.
+
+Relationships:
+
+  A booking belongs to one user and one property.
+
+  A booking can have an associated payment.
+
 - Payments
+
+Handles transactions for bookings.
+
+Relationships:
+
+  A payment belongs to one booking.
+
 - Reviews
+
+User-generated reviews for properties.
+
+
+Relationships:
+
+  A review is associated with one user and one property.
 
