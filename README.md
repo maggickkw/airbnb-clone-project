@@ -90,3 +90,34 @@ Users can register, log in, and manage their profiles. Authentication ensures se
 - Users can leave reviews and ratings for properties they’ve stayed at. This builds trust within the platform and helps future renters make informed decisions.
 🚀 API & Integration
 
+
+## API Security
+
+- Authentication
+
+What it is: Users must log in using valid credentials to receive an access token (e.g., JWT). This token is then required for accessing protected endpoints.
+Why it's important: Prevents unauthorized access to user accounts and private actions such as bookings, payments, or property management.
+
+- Authorization
+
+What it is: Ensures users can only perform actions they are allowed to—for example, only property owners can modify their listings.
+Why it's important: Prevents malicious or accidental access to data that doesn’t belong to the authenticated user, protecting user privacy and platform integrity.
+ 
+- Rate Limiting
+
+What it is: Limits the number of requests a user or IP can make in a given timeframe.
+Why it's important: Helps mitigate abuse and denial-of-service (DoS) attacks by slowing down or blocking suspicious traffic.
+
+- Secure Payment Handling
+
+What it is: Payments are processed through secure gateways and sensitive payment data is never stored directly.
+Why it's important: Ensures financial data is protected and the booking process remains trustworthy for all users.
+🧪 Input Validation & Data Sanitization
+
+What it is: All incoming data is validated and sanitized to prevent injection attacks (e.g., SQL, XSS).
+Why it's important: Protects the application from attacks that could compromise data or functionality.
+
+- HTTPS & Data Encryption
+
+What it is: All API communication is secured over HTTPS to encrypt data in transit.
+Why it's important: Prevents man-in-the-middle (MITM) attacks and eavesdropping on sensitive information like passwords or personal data.
