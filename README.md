@@ -71,3 +71,22 @@ Relationships:
 
   A review is associated with one user and one property.
 
+
+## Feature Breakdown
+
+- User Management
+Users can register, log in, and manage their profiles. Authentication ensures secure access to personal data and user-specific features such as bookings and reviews.
+🏘️ Property Management
+
+- Property owners can create, update, and delete property listings. This feature enables hosts to showcase their properties with details like images, pricing, and descriptions.
+📅 Booking System
+
+- Users can view available properties and make bookings for specific dates. This system handles check-in/check-out information and ensures no overlapping reservations occur.
+💳 Payment Processing
+
+- Handles secure payment transactions for property bookings. It verifies payment details and marks bookings as confirmed once payment is successful.
+⭐ Review System
+
+- Users can leave reviews and ratings for properties they’ve stayed at. This builds trust within the platform and helps future renters make informed decisions.
+🚀 API & Integration
+
