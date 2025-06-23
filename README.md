@@ -121,3 +121,24 @@ Why it's important: Protects the application from attacks that could compromise 
 
 What it is: All API communication is secured over HTTPS to encrypt data in transit.
 Why it's important: Prevents man-in-the-middle (MITM) attacks and eavesdropping on sensitive information like passwords or personal data.
+
+
+## CI/CD Pipeline
+
+For this project, a CI/CD pipeline ensures that:
+
+ - Code changes are automatically tested before merging.
+
+ - The backend is built and deployed consistently across environments.
+
+ -  Any issues are detected early through automated checks.
+
+🛠️ Tools Used
+
+ - GitHub Actions: Automates testing, linting, and deployment workflows directly from the repository.
+
+ - Docker: Ensures the application runs consistently across development, staging, and production environments.
+
+ - Docker Hub / GitHub Container Registry: Used to store and distribute container images.
+
+ - (Optional) Heroku / Render / AWS: For automatic deployment to cloud platforms.
