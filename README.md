@@ -1,5 +1,7 @@
 # airbnb-clone-project
 
+
+## Team Roles
 This is an airbnb-clone-project built with python
 Backend Developer: Responsible for implementing API endpoints, database schemas, and business logic.
 Database Administrator: Manages database design, indexing, and optimizations.
